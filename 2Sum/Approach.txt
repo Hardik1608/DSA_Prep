@@ -1,0 +1,10 @@
+Steps(Optimal):
+1. Define an un-ordered map with key_type and value_type both as int.
+2. Run a loop to traverse the entire array.
+3. Compute how much more is needed to achieve the target based on the current index.
+4. Check if the remaining value(i.e to meet the target) happens to be inside our hash-map.
+5. If it exists in our map then, return the index of the value and our current index.
+6. Else add our current num and its index to the hashmap.
+
+Time-Complexity: O(n)
+Space-Complexity: O(1)
