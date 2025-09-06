@@ -1,0 +1,12 @@
+Steps:
+
+1. First create an unordered set and insert all the elements to it.
+2. Now iterate through each of the element of this set.
+3. Check if there exists some element in the set that comes just before our current element and if so then do nothing.
+4. If there isn't any element which exists before our current element that means its the starting point of a subsequence.
+5. Iterate through this element until there exits its next element.
+6. Update the max length.
+7. Return the final max length.
+
+Time Complexity: O(n)
+Space Complexity: O(1)

@@ -1,5 +1,10 @@
 {
     "editor.quickSuggestions": {
         "other": "off"
+    },
+    "files.associations": {
+        "format": "cpp",
+        "iostream": "cpp",
+        "unordered_map": "cpp"
     }
 }
