@@ -1,0 +1,9 @@
+Steps:
+
+1. Keep a running sum (prefix_sum) as we iterate.
+2. Store the first index where each prefix sum occurs in a hashmap.
+3. If at index i, the prefix sum is S, and we know S - k appeared before at index j, then the subarray (j+1 ... i) has sum k. 
+4. Track the maximum length.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
