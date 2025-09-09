@@ -1,0 +1,11 @@
+Steps:
+
+1. Initialize left and right pointers at 0th index, cSum which tracks of total sum till current index and maxL which computes the maximum length.
+2. Traverse through the array till right is within array and increment the cSum with current index.
+3. Check whether cSum is greater than target and left is less than right.
+4. Decrease the cSum by the value that left has and increment the left counter.
+5. If cSum is equal to the target then update the maxL.
+6. Return the maxL when loop ends.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
