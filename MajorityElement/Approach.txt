@@ -1,0 +1,10 @@
+Steps:
+
+1. Initialize a variable el (candidate element) and a counter cnt = 0.
+2. Traverse the array one element at a time.
+3. If cnt == 0, set the current number as the new candidate el.
+4. If the current number equals el, increment cnt; otherwise decrement cnt.
+5. After finishing the traversal, el will be the majority element (if one exists).
+
+Time Complexity: O(n)
+Space Complexity: O(1)
