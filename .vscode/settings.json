@@ -5,6 +5,11 @@
     "files.associations": {
         "format": "cpp",
         "iostream": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "bitset": "cpp",
+        "coroutine": "cpp",
+        "string_view": "cpp",
+        "typeindex": "cpp",
+        "variant": "cpp"
     }
 }

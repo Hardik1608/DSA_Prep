@@ -1,0 +1,14 @@
+Steps:
+
+1. Use two pointers (l and r) to represent a sliding window over the string.
+2. Keep a hash/array to store the last index where each character appeared.
+3. Move r forward to include a new character.
+4. If the new character was seen inside the current window, move l forward to skip its last occurrence.
+5. Update the window length r - l + 1 and track the maximum length so far.
+6. Continue until r reaches the end of the string, then return the maximum length.
+
+
+
+
+Time Complexity: O(n)
+Space Complexity: O(1)
