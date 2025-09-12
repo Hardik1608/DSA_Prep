@@ -1,0 +1,9 @@
+Steps:
+
+1. Check if n is non-negative, or else take the reciprocal of x and multiply n by -1.
+2. Run a loop until the binaryForm is non-zero.
+3. With each iteration, multiply x by itself and divide binaryForm by 2.
+4. If the remainder of binaryForm when divided by 2 gives 1, multiply ans with x before updating x.
+
+Time Complexity: O(logn)
+Space Complexity: O(1)
