@@ -1,0 +1,11 @@
+Steps:
+
+1. Create a mapping to convert the entire matrix into a array of size m*n.
+2. Row is equal to the index divided by the numRows (i.e its a multiple of row).
+3. Col is equal to the remainder we get after dividing the index with numRows.
+4. Use this to apply Binary Search.
+5. Return true when we find target else return false
+
+
+Time Complexity: O(log(m*n))
+Space Complexity: O(1)
