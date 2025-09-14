@@ -1,0 +1,10 @@
+Steps:
+
+1. Treat the array as a linked list where each index points to nums[index].
+2. Use two pointers — slow (1 step) and fast (2 steps) — starting from index 0.
+3. Move them until they meet inside the cycle (this confirms a duplicate exists).
+4. Reset slow to the start (index 0) while keeping fast at the meeting point.
+5. Move both one step at a time; the node where they meet is the duplicate number.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
