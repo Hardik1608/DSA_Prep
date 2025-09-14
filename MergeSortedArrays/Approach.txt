@@ -1,0 +1,10 @@
+Steps:
+
+1. Start three pointers: i at the end of the valid part of nums1, j at the end of nums2, and k at the end of nums1.
+2. Compare nums1[i] and nums2[j].
+3. Place the larger of the two at nums1[k], then move that pointer (i or j) and k backward.
+4. Repeat until either i or j runs out.
+5. If any elements remain in nums2, copy them to the front of nums1.
+
+Time Complexity: O(m+n)
+Space Complexity: O(1)
