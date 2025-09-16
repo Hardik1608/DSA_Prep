@@ -1,0 +1,12 @@
+Steps:
+
+1. Sort the intervals by their starting times so they are processed in order.
+2. Create an empty result list (ans) to store the merged intervals.
+3. Iterate through each interval from the sorted list.
+4. For each interval,
+    ~ If ans is empty or the current interval’s start is after the last interval’s end in ans, just add it as a new interval.
+    ~ Otherwise, there is an overlap, so merge it by updating the last interval’s end to the maximum of both ends.
+5. Return the result list (ans) after processing all intervals.
+
+Time Complexity: O(nlogn + n) ~ O(nlogn)
+Space Complexity: O(n)
