@@ -1,0 +1,8 @@
+Steps:
+
+1. Iterate through the upper triangle of the matrix (i ≤ j).
+2. Swap matrix[i][j] and matrix[j][i] → this creates the transpose of the matrix (rows become columns).
+3. After the transpose, perform a reverse operation on each row.
+
+Time complexity: O(n^2)
+Space complexity: O(1)
