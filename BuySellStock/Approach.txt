@@ -5,3 +5,7 @@ Steps:
 3. At each day, calculate the profit if you sold today (current price − minimum price so far).
 4. Keep track of the maximum profit seen among all these calculations.
 5. Return that maximum profit at the end.
+
+
+Time Complexity: O(n)
+Space Complexity: O(1)

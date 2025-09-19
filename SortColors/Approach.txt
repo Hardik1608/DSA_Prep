@@ -1,0 +1,11 @@
+Steps:
+
+1. Use three pointers: low (start), mid (current), and high (end) to divide the array.
+2. While mid <= high, check the value at mid:
+    ~If it’s 0, swap it with low and move both low and mid forward.
+    ~If it’s 1, leave it in place and move mid forward.
+    ~If it’s 2, swap it with high and move high backward (but don’t move mid yet).
+3. This way, all 0’s get pushed to the start, 2’s to the end, and 1’s stay in the middle.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
