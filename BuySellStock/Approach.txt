@@ -1,0 +1,7 @@
+Steps:
+
+1. Start by assuming the first price is the minimum price seen so far.
+2. As you go through each day’s price, update this minimum if you find a lower price.
+3. At each day, calculate the profit if you sold today (current price − minimum price so far).
+4. Keep track of the maximum profit seen among all these calculations.
+5. Return that maximum profit at the end.
