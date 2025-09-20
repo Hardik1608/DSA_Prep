@@ -1,0 +1,10 @@
+Steps:
+
+1. Start with sum = 0 and maxSum as a very small number.
+2. Go through each element in the array and keep adding it to sum.
+3. Update maxSum whenever sum becomes larger than the current maxSum.
+4. If sum becomes negative, reset it to 0 (because starting fresh is better).
+5. After the loop, return maxSum as the maximum subarray sum.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
