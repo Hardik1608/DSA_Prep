@@ -1,0 +1,10 @@
+Steps:
+
+1. Scan from the right to find the first index dip where nums[dip] < nums[dip+1].
+2. If no such index exists, reverse the whole array (it’s the last permutation).
+3. Otherwise, from the right, find the first element greater than nums[dip] and swap them.
+4. Finally, reverse the subarray from dip+1 to the end.
+
+
+Time Complexity: O(n)
+Space Complexity: O(1)
