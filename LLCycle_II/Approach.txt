@@ -1,0 +1,11 @@
+Steps:
+
+1. Start with two pointers, slow and fast, both at the head of the list.
+2. Move slow one step and fast two steps at a time, until they either meet (cycle exists) or fast/fast->next becomes NULL (no cycle).
+3. If a meeting point is found, reset slow back to the head.
+4. Move both slow and fast one step at a time.
+5. The node where they meet again is the start of the cycle.
+
+
+Time Complexity: O(n)
+Space Complexity: O(1)
