@@ -1,0 +1,10 @@
+Steps:
+
+1. If list is empty or has one node, return head.
+2. Find the length n and connect tail → head (make it circular).
+3. Skip (n - k % n) nodes to find the new tail.
+4. The next node is the new head; break the circle.
+5. Return the new head.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
