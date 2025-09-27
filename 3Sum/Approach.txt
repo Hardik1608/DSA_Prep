@@ -1,0 +1,14 @@
+Steps:
+
+1. Sort the array → This helps in using the two-pointer technique and makes it easy to skip duplicates.
+2. Fix the first element (i) → Loop through the array, treating nums[i] as the first element of the triplet.
+3. Use two pointers (j, k) → Initialize j = i+1 and k = n-1, then move them inward to find pairs that, with nums[i], sum to zero.
+4. Check the sum:
+    -If sum < 0 → move j forward (to increase sum).
+    -If sum > 0 → move k backward (to decrease sum).
+    -If sum == 0 → record the triplet.
+5. Skip duplicates → After finding a triplet, move j and k past duplicate values, and also skip duplicate i values in the outer loop.
+6. Continue until all triplets are found, then return the result.
+
+Time Complexity: O(n^2)
+Space Complexity: O(n)
