@@ -1,0 +1,8 @@
+Steps
+
+1. Use two pointers: one (i) to track the position of the last unique element and another (j) to scan through the array.
+2. Whenever a new unique element is found, it is placed at the next position after i.
+3. Return the count of unique elements as i + 1.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
