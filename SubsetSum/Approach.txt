@@ -1,0 +1,3 @@
+Steps:
+
+1. For each index, eiter take it or leave it until you reach the nth index.
